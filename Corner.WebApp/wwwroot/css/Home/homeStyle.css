@@ -1,0 +1,47 @@
+﻿#container {
+    position: relative;
+    width: 750px;
+    height: 750px;
+    background: #bfe87c;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.droppable {
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    background: white;
+}
+
+#draggable {
+    position: relative;
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: -1px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#result {
+    width: 750px;
+    margin: 10px auto;
+}
+
+.top {
+    top: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+}

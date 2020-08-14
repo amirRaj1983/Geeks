@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="~/css/Home/homeStyle.css" rel="stylesheet" />
+    <link href="~/lib/jquery-ui/jquery-ui.css" rel="stylesheet" />
+    @section Scripts {
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
+        <script src="~/js/Home/homeScript.js"></script>
+    }
+</head>
+<body>
+    <div class="form-group row" id="result">
+        <button type="button" class="btn btn-outline-secondary col-md-2 col-sm-6" id="gameStart">Game Start</button>
+        <div class="col-md-10 col-sm-6">
+            <input type="text" class="form-control" id="score" placeholder="Result" disabled>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="draggable" class="ui-widget-content image"></div>
+        <div id="Japanese" class="droppable top left ui-widget-header">Japanese</div>
+        <div id="Chinese" class="droppable top right ui-widget-header">Chinese</div>
+        <div id="Korean" class="droppable bottom left ui-widget-header">Korean</div>
+        <div id="Thai" class="droppable bottom right ui-widget-header">Thai</div>
+    </div>
+</body>
+</html>

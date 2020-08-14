@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iQSSX6j0BUSCKJf0J3vsZv31lioy0uftm7/3EONHPIyMlHz6kPjfh+XABE30A0S8ig2bDqvVBAnz5RKn/ClpNA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Corner\\Corner.WebApp\\Corner.WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kashira Computer\\.nuget\\packages\\jquery\\1.12.4\\jquery.1.12.4.nupkg.sha512",
+    "C:\\Users\\Kashira Computer\\.nuget\\packages\\jquery.ui\\1.12.1.1\\jquery.ui.1.12.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}
